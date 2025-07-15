@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Amanda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="min-h-screen bg-gradient-to-br from-purple-700 via-pink-500 to-yellow-300 flex flex-col justify-center items-center">
+    <div class="container text-center mt-20">
+        <h1 class="display-3 font-bold text-white drop-shadow-lg animate__animated animate__fadeInDown">Hi Amanda <span aria-label="waving hand" role="img">👋👋</span></h1>
+        <p id="dramatic-text" class="mt-6 text-xl text-white animate__animated animate__fadeInUp"></p>
+        <div id="shock-question" class="hidden mt-10 animate__animated animate__fadeIn">
+            <h2 class="text-2xl font-semibold text-white">How shocked are you?</h2>
+            <button onclick="goToNextPage()" class="btn btn-primary m-4">Show Me More</button>
+            <button onclick="leavePage()" class="btn btn-outline-light m-4">I Want to Leave</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
